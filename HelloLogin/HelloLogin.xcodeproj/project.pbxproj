@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		49DE4B562544771A00038260 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DE4B552544771A00038260 /* AppDelegate.swift */; };
 		49DE4B582544771A00038260 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DE4B572544771A00038260 /* SceneDelegate.swift */; };
-		49DE4B5A2544771A00038260 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DE4B592544771A00038260 /* ViewController.swift */; };
+		49DE4B5A2544771A00038260 /* HLHomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DE4B592544771A00038260 /* HLHomeVC.swift */; };
 		49DE4B5D2544771A00038260 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49DE4B5B2544771A00038260 /* Main.storyboard */; };
 		49DE4B5F2544771B00038260 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49DE4B5E2544771B00038260 /* Assets.xcassets */; };
 		49DE4B622544771B00038260 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49DE4B602544771B00038260 /* LaunchScreen.storyboard */; };
@@ -44,7 +44,7 @@
 		49DE4B522544771A00038260 /* HelloLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		49DE4B552544771A00038260 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		49DE4B572544771A00038260 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		49DE4B592544771A00038260 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		49DE4B592544771A00038260 /* HLHomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HLHomeVC.swift; sourceTree = "<group>"; };
 		49DE4B5C2544771A00038260 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		49DE4B5E2544771B00038260 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		49DE4B612544771B00038260 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -101,7 +101,6 @@
 				9DAEADD5D3D5C708D3B804AE /* Pods-HelloLoginTests.debug.xcconfig */,
 				0412AF8CABEB32DFD77EC8ED /* Pods-HelloLoginTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -130,9 +129,12 @@
 		49DE4B542544771A00038260 /* HelloLogin */ = {
 			isa = PBXGroup;
 			children = (
-				49DE4B552544771A00038260 /* AppDelegate.swift */,
-				49DE4B572544771A00038260 /* SceneDelegate.swift */,
-				49DE4B592544771A00038260 /* ViewController.swift */,
+				49DE4BA025447AC300038260 /* Application */,
+				49DE4B9F25447ABA00038260 /* Views */,
+				49DE4B9E25447AA800038260 /* Controllers */,
+				49DE4BAB25447B2500038260 /* Extensions */,
+				49DE4BAA25447B1C00038260 /* Models */,
+				49DE4B9D25447A9E00038260 /* Utils */,
 				49DE4B5B2544771A00038260 /* Main.storyboard */,
 				49DE4B5E2544771B00038260 /* Assets.xcassets */,
 				49DE4B602544771B00038260 /* LaunchScreen.storyboard */,
@@ -157,6 +159,51 @@
 				49DE4B792544771B00038260 /* Info.plist */,
 			);
 			path = HelloLoginUITests;
+			sourceTree = "<group>";
+		};
+		49DE4B9D25447A9E00038260 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		49DE4B9E25447AA800038260 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				49DE4B592544771A00038260 /* HLHomeVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		49DE4B9F25447ABA00038260 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		49DE4BA025447AC300038260 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				49DE4B552544771A00038260 /* AppDelegate.swift */,
+				49DE4B572544771A00038260 /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		49DE4BAA25447B1C00038260 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		49DE4BAB25447B2500038260 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		FB2DE5F0E8152627875BBF35 /* Frameworks */ = {
@@ -372,7 +419,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				49DE4B5A2544771A00038260 /* ViewController.swift in Sources */,
+				49DE4B5A2544771A00038260 /* HLHomeVC.swift in Sources */,
 				49DE4B562544771A00038260 /* AppDelegate.swift in Sources */,
 				49DE4B582544771A00038260 /* SceneDelegate.swift in Sources */,
 			);
