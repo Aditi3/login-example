@@ -15,6 +15,9 @@
 		49DE4B622544771B00038260 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49DE4B602544771B00038260 /* LaunchScreen.storyboard */; };
 		49DE4B6D2544771B00038260 /* HelloLoginTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DE4B6C2544771B00038260 /* HelloLoginTests.swift */; };
 		49DE4B782544771B00038260 /* HelloLoginUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DE4B772544771B00038260 /* HelloLoginUITests.swift */; };
+		4B66586EC94BAD622F9AECCF /* Pods_HelloLogin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39466501F592A8A53CADF9C1 /* Pods_HelloLogin.framework */; };
+		6849B24D4F0B2F49C26E1F05 /* Pods_HelloLogin_HelloLoginUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 832C82651E40026244EC79E5 /* Pods_HelloLogin_HelloLoginUITests.framework */; };
+		C149AEF0FBC7106053707022 /* Pods_HelloLoginTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBC186724565E4B95AE6BD96 /* Pods_HelloLoginTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0412AF8CABEB32DFD77EC8ED /* Pods-HelloLoginTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloLoginTests.release.xcconfig"; path = "Target Support Files/Pods-HelloLoginTests/Pods-HelloLoginTests.release.xcconfig"; sourceTree = "<group>"; };
+		39466501F592A8A53CADF9C1 /* Pods_HelloLogin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HelloLogin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FD3999522E748971FFC318C /* Pods-HelloLogin-HelloLoginUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloLogin-HelloLoginUITests.debug.xcconfig"; path = "Target Support Files/Pods-HelloLogin-HelloLoginUITests/Pods-HelloLogin-HelloLoginUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		49DE4B522544771A00038260 /* HelloLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		49DE4B552544771A00038260 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		49DE4B572544771A00038260 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +55,12 @@
 		49DE4B732544771B00038260 /* HelloLoginUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloLoginUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		49DE4B772544771B00038260 /* HelloLoginUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloLoginUITests.swift; sourceTree = "<group>"; };
 		49DE4B792544771B00038260 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5814547EA15850394CE6BB50 /* Pods-HelloLogin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloLogin.debug.xcconfig"; path = "Target Support Files/Pods-HelloLogin/Pods-HelloLogin.debug.xcconfig"; sourceTree = "<group>"; };
+		82E38027B37DD9A82C883873 /* Pods-HelloLogin-HelloLoginUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloLogin-HelloLoginUITests.release.xcconfig"; path = "Target Support Files/Pods-HelloLogin-HelloLoginUITests/Pods-HelloLogin-HelloLoginUITests.release.xcconfig"; sourceTree = "<group>"; };
+		832C82651E40026244EC79E5 /* Pods_HelloLogin_HelloLoginUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HelloLogin_HelloLoginUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DAEADD5D3D5C708D3B804AE /* Pods-HelloLoginTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloLoginTests.debug.xcconfig"; path = "Target Support Files/Pods-HelloLoginTests/Pods-HelloLoginTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C23EF59B92B1D70F651603AA /* Pods-HelloLogin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloLogin.release.xcconfig"; path = "Target Support Files/Pods-HelloLogin/Pods-HelloLogin.release.xcconfig"; sourceTree = "<group>"; };
+		FBC186724565E4B95AE6BD96 /* Pods_HelloLoginTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HelloLoginTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B66586EC94BAD622F9AECCF /* Pods_HelloLogin.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C149AEF0FBC7106053707022 /* Pods_HelloLoginTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +84,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6849B24D4F0B2F49C26E1F05 /* Pods_HelloLogin_HelloLoginUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04B5A81BD8BAE791F32F2401 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5814547EA15850394CE6BB50 /* Pods-HelloLogin.debug.xcconfig */,
+				C23EF59B92B1D70F651603AA /* Pods-HelloLogin.release.xcconfig */,
+				3FD3999522E748971FFC318C /* Pods-HelloLogin-HelloLoginUITests.debug.xcconfig */,
+				82E38027B37DD9A82C883873 /* Pods-HelloLogin-HelloLoginUITests.release.xcconfig */,
+				9DAEADD5D3D5C708D3B804AE /* Pods-HelloLoginTests.debug.xcconfig */,
+				0412AF8CABEB32DFD77EC8ED /* Pods-HelloLoginTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		49DE4B492544771A00038260 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +112,8 @@
 				49DE4B6B2544771B00038260 /* HelloLoginTests */,
 				49DE4B762544771B00038260 /* HelloLoginUITests */,
 				49DE4B532544771A00038260 /* Products */,
+				04B5A81BD8BAE791F32F2401 /* Pods */,
+				FB2DE5F0E8152627875BBF35 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,6 +159,16 @@
 			path = HelloLoginUITests;
 			sourceTree = "<group>";
 		};
+		FB2DE5F0E8152627875BBF35 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				39466501F592A8A53CADF9C1 /* Pods_HelloLogin.framework */,
+				832C82651E40026244EC79E5 /* Pods_HelloLogin_HelloLoginUITests.framework */,
+				FBC186724565E4B95AE6BD96 /* Pods_HelloLoginTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,6 +176,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 49DE4B7C2544771B00038260 /* Build configuration list for PBXNativeTarget "HelloLogin" */;
 			buildPhases = (
+				63A1B7147B4CC11BB425238E /* [CP] Check Pods Manifest.lock */,
 				49DE4B4E2544771A00038260 /* Sources */,
 				49DE4B4F2544771A00038260 /* Frameworks */,
 				49DE4B502544771A00038260 /* Resources */,
@@ -152,6 +194,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 49DE4B7F2544771B00038260 /* Build configuration list for PBXNativeTarget "HelloLoginTests" */;
 			buildPhases = (
+				4C33B4DC11E81279F4D0CDD3 /* [CP] Check Pods Manifest.lock */,
 				49DE4B642544771B00038260 /* Sources */,
 				49DE4B652544771B00038260 /* Frameworks */,
 				49DE4B662544771B00038260 /* Resources */,
@@ -170,6 +213,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 49DE4B822544771B00038260 /* Build configuration list for PBXNativeTarget "HelloLoginUITests" */;
 			buildPhases = (
+				A1721ACB37236488F473101C /* [CP] Check Pods Manifest.lock */,
 				49DE4B6F2544771B00038260 /* Sources */,
 				49DE4B702544771B00038260 /* Frameworks */,
 				49DE4B712544771B00038260 /* Resources */,
@@ -253,6 +297,75 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4C33B4DC11E81279F4D0CDD3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HelloLoginTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		63A1B7147B4CC11BB425238E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HelloLogin-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A1721ACB37236488F473101C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HelloLogin-HelloLoginUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		49DE4B4E2544771A00038260 /* Sources */ = {
@@ -434,6 +547,7 @@
 		};
 		49DE4B7D2544771B00038260 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5814547EA15850394CE6BB50 /* Pods-HelloLogin.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -453,6 +567,7 @@
 		};
 		49DE4B7E2544771B00038260 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C23EF59B92B1D70F651603AA /* Pods-HelloLogin.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -472,6 +587,7 @@
 		};
 		49DE4B802544771B00038260 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DAEADD5D3D5C708D3B804AE /* Pods-HelloLoginTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -493,6 +609,7 @@
 		};
 		49DE4B812544771B00038260 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0412AF8CABEB32DFD77EC8ED /* Pods-HelloLoginTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -514,6 +631,7 @@
 		};
 		49DE4B832544771B00038260 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FD3999522E748971FFC318C /* Pods-HelloLogin-HelloLoginUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -533,6 +651,7 @@
 		};
 		49DE4B842544771B00038260 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82E38027B37DD9A82C883873 /* Pods-HelloLogin-HelloLoginUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
