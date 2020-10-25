@@ -1,24 +1,131 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ABM-Qd-H5d">
+    <device id="retina5_9" orientation="portrait" appearance="dark"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17126"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Navigation Controller-->
+        <scene sceneID="cuS-1z-nGz">
+            <objects>
+                <navigationController id="ABM-Qd-H5d" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="CgD-GT-S6K">
+                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="fcU-JG-E3r"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dfh-QZ-BLe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-714" y="54"/>
+        </scene>
+        <!--HomeVC-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="HLHomeVC" customModule="HelloLogin" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_moon" translatesAutoresizingMaskIntoConstraints="NO" id="zGT-ES-O9K">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Whf-54-YsR" customClass="HLCustomButton" customModule="HelloLogin" customModuleProvider="target">
+                                <rect key="frame" x="64" y="651.66666666666663" width="91.666666666666686" height="62.333333333333371"/>
+                                <color key="backgroundColor" red="0.97647058823529409" green="0.80000000000000004" blue="0.27450980392156865" alpha="0.5" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-SemiBold" family="Apple SD Gothic Neo" pointSize="22"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Login">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="3"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="backgroundImageColor">
+                                        <color key="value" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="customBorderColor">
+                                        <color key="value" red="0.97647058819999999" green="0.80000000000000004" blue="0.27450980390000002" alpha="0.5" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oK9-jx-4Vm" customClass="HLCustomButton" customModule="HelloLogin" customModuleProvider="target">
+                                <rect key="frame" x="219.66666666666666" y="651.66666666666663" width="91.333333333333343" height="62.333333333333371"/>
+                                <color key="backgroundColor" red="0.97647058823529409" green="0.80000000000000004" blue="0.27450980392156865" alpha="0.5" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-SemiBold" family="Apple SD Gothic Neo" pointSize="22"/>
+                                <state key="normal" title="Signup">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="3"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="backgroundImageColor">
+                                        <color key="value" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="customBorderColor">
+                                        <color key="value" red="0.97647058819999999" green="0.80000000000000004" blue="0.27450980390000002" alpha="0.5" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HELLO, LOGIN" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m8u-Et-g4C">
+                                <rect key="frame" x="78.000000000000014" y="291.66666666666669" width="219.33333333333337" height="41"/>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Bold" family="Apple SD Gothic Neo" pointSize="34"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="zGT-ES-O9K" secondAttribute="bottom" id="1Ck-cT-gLA"/>
+                            <constraint firstItem="zGT-ES-O9K" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="3G4-2N-JmK"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="zGT-ES-O9K" secondAttribute="trailing" id="9V4-Gx-80F"/>
+                            <constraint firstItem="m8u-Et-g4C" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-94" id="Fsu-CY-znL"/>
+                            <constraint firstItem="zGT-ES-O9K" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="IWy-2E-lKL"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="oK9-jx-4Vm" secondAttribute="bottom" constant="64" id="IhA-R5-uxg"/>
+                            <constraint firstItem="oK9-jx-4Vm" firstAttribute="height" secondItem="Whf-54-YsR" secondAttribute="height" id="SUg-wR-cIS"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Whf-54-YsR" secondAttribute="bottom" constant="64" id="SZ6-wQ-jOH"/>
+                            <constraint firstItem="m8u-Et-g4C" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="YEY-kf-xDm"/>
+                            <constraint firstItem="Whf-54-YsR" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="1:13" id="crP-l0-VHN"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="oK9-jx-4Vm" secondAttribute="trailing" constant="64" id="jYQ-xw-wxG"/>
+                            <constraint firstItem="oK9-jx-4Vm" firstAttribute="leading" secondItem="Whf-54-YsR" secondAttribute="trailing" constant="64" id="oP0-x5-827"/>
+                            <constraint firstItem="Whf-54-YsR" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="64" id="ouA-NZ-Mcz"/>
+                            <constraint firstItem="oK9-jx-4Vm" firstAttribute="width" secondItem="Whf-54-YsR" secondAttribute="width" id="wD6-v5-vZu"/>
+                        </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="Gzu-eh-kBE"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="130.40000000000001" y="53.201970443349758"/>
         </scene>
     </scenes>
+    <designables>
+        <designable name="Whf-54-YsR">
+            <size key="intrinsicContentSize" width="52" height="27"/>
+        </designable>
+        <designable name="oK9-jx-4Vm">
+            <size key="intrinsicContentSize" width="64" height="27"/>
+        </designable>
+    </designables>
+    <resources>
+        <image name="ic_moon" width="414" height="896"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
 </document>
