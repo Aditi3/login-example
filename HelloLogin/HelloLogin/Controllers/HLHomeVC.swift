@@ -22,7 +22,7 @@ extension HLHomeVC {
         self.navigationController?.navigationBar.setBackgroundImage(UIImage(), for: .default)
         self.navigationController?.navigationBar.shadowImage = UIImage()
         self.navigationController?.navigationBar.isTranslucent = true
-    }
+    }    
 }
 
 
