@@ -12,6 +12,7 @@ class HLLoginVC: UIViewController {
     
     @IBOutlet weak var emailTextField: UITextField!
     @IBOutlet weak var passwordTextField: UITextField!
+    @IBOutlet weak var keyboardScrollView: UIScrollView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -33,4 +34,11 @@ extension HLLoginVC: UITextFieldDelegate {
         return true
     }
     
+    func textFieldDidBeginEditing(_ textField: UITextField) {
+        keyboardScrollView.setContentOffset(CGPoint(x: 0, y: (textField.superview?.frame.origin.y)!), animated: true)
+    }
+    
+    func textFieldDidEndEditing(_ textField: UITextField) {
+        keyboardScrollView.setContentOffset(CGPoint(x: 0, y: 0), animated: true)
+    }
 }

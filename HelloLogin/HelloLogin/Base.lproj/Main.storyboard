@@ -133,99 +133,123 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="66r-gL-yvX">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="758"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t0p-u6-TwM" customClass="HLCustomButton" customModule="HelloLogin" customModuleProvider="target">
-                                                <rect key="frame" x="44" y="237.33333333333334" width="287" height="43.666666666666657"/>
-                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-SemiBold" family="Apple SD Gothic Neo" pointSize="22"/>
-                                                <state key="normal" title="Login">
-                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                </state>
-                                                <userDefinedRuntimeAttributes>
-                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                                        <real key="value" value="3"/>
-                                                    </userDefinedRuntimeAttribute>
-                                                    <userDefinedRuntimeAttribute type="color" keyPath="backgroundImageColor">
-                                                        <color key="value" systemColor="systemYellowColor"/>
-                                                    </userDefinedRuntimeAttribute>
-                                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
-                                                        <real key="value" value="0.0"/>
-                                                    </userDefinedRuntimeAttribute>
-                                                    <userDefinedRuntimeAttribute type="color" keyPath="customBorderColor">
-                                                        <color key="value" red="0.97647058819999999" green="0.80000000000000004" blue="0.27450980390000002" alpha="0.5" colorSpace="custom" customColorSpace="calibratedRGB"/>
-                                                    </userDefinedRuntimeAttribute>
-                                                </userDefinedRuntimeAttributes>
-                                            </button>
-                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Email Address" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="27e-A3-H0b" customClass="HLCustomTextField" customModule="HelloLogin" customModuleProvider="target">
-                                                <rect key="frame" x="44" y="64" width="287" height="43.666666666666657"/>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="H6K-Sj-PlH">
+                                                <rect key="frame" x="0.0" y="151.33333333333334" width="375" height="455.33333333333326"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PLEASE SIGN IN" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UXN-He-mZR">
+                                                        <rect key="frame" x="51.666666666666657" y="44" width="271.66666666666674" height="45.666666666666657"/>
+                                                        <fontDescription key="fontDescription" name="AppleSDGothicNeo-Bold" family="Apple SD Gothic Neo" pointSize="38"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Email Address" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="27e-A3-H0b" customClass="HLCustomTextField" customModule="HelloLogin" customModuleProvider="target">
+                                                        <rect key="frame" x="30" y="153.66666666666666" width="315" height="50.666666666666657"/>
+                                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                        <color key="tintColor" systemColor="systemYellowColor"/>
+                                                        <fontDescription key="fontDescription" name="AppleSDGothicNeo-Medium" family="Apple SD Gothic Neo" pointSize="16"/>
+                                                        <textInputTraits key="textInputTraits"/>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="leftPadding">
+                                                                <real key="value" value="14"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                <real key="value" value="3"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                                <real key="value" value="0.5"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                                <color key="value" systemColor="systemGray3Color"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                        </userDefinedRuntimeAttributes>
+                                                    </textField>
+                                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="agt-kG-W2j" customClass="HLCustomTextField" customModule="HelloLogin" customModuleProvider="target">
+                                                        <rect key="frame" x="30" y="226.33333333333334" width="315" height="50.333333333333343"/>
+                                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                        <color key="tintColor" systemColor="systemYellowColor"/>
+                                                        <fontDescription key="fontDescription" name="AppleSDGothicNeo-Medium" family="Apple SD Gothic Neo" pointSize="16"/>
+                                                        <textInputTraits key="textInputTraits"/>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="leftPadding">
+                                                                <real key="value" value="14"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                <real key="value" value="3"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                                <real key="value" value="0.5"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                                <color key="value" systemColor="systemGray3Color"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                        </userDefinedRuntimeAttributes>
+                                                    </textField>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t0p-u6-TwM" customClass="HLCustomButton" customModule="HelloLogin" customModuleProvider="target">
+                                                        <rect key="frame" x="30" y="340.66666666666663" width="315" height="50.666666666666686"/>
+                                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <fontDescription key="fontDescription" name="AppleSDGothicNeo-SemiBold" family="Apple SD Gothic Neo" pointSize="22"/>
+                                                        <state key="normal" title="Login">
+                                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        </state>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                <real key="value" value="3"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="color" keyPath="backgroundImageColor">
+                                                                <color key="value" systemColor="systemYellowColor"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                                <real key="value" value="0.0"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="color" keyPath="customBorderColor">
+                                                                <color key="value" red="0.97647058819999999" green="0.80000000000000004" blue="0.27450980390000002" alpha="0.5" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                        </userDefinedRuntimeAttributes>
+                                                    </button>
+                                                </subviews>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                                <color key="tintColor" systemColor="systemYellowColor"/>
-                                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Medium" family="Apple SD Gothic Neo" pointSize="16"/>
-                                                <textInputTraits key="textInputTraits"/>
-                                                <userDefinedRuntimeAttributes>
-                                                    <userDefinedRuntimeAttribute type="number" keyPath="leftPadding">
-                                                        <real key="value" value="14"/>
-                                                    </userDefinedRuntimeAttribute>
-                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                                        <real key="value" value="3"/>
-                                                    </userDefinedRuntimeAttribute>
-                                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
-                                                        <real key="value" value="0.5"/>
-                                                    </userDefinedRuntimeAttribute>
-                                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
-                                                        <color key="value" systemColor="systemGray3Color"/>
-                                                    </userDefinedRuntimeAttribute>
-                                                </userDefinedRuntimeAttributes>
-                                            </textField>
-                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="agt-kG-W2j" customClass="HLCustomTextField" customModule="HelloLogin" customModuleProvider="target">
-                                                <rect key="frame" x="44" y="129.66666666666666" width="287" height="43.666666666666657"/>
-                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                                <color key="tintColor" systemColor="systemYellowColor"/>
-                                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Medium" family="Apple SD Gothic Neo" pointSize="16"/>
-                                                <textInputTraits key="textInputTraits"/>
-                                                <userDefinedRuntimeAttributes>
-                                                    <userDefinedRuntimeAttribute type="number" keyPath="leftPadding">
-                                                        <real key="value" value="14"/>
-                                                    </userDefinedRuntimeAttribute>
-                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                                        <real key="value" value="3"/>
-                                                    </userDefinedRuntimeAttribute>
-                                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
-                                                        <real key="value" value="0.5"/>
-                                                    </userDefinedRuntimeAttribute>
-                                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
-                                                        <color key="value" systemColor="systemGray3Color"/>
-                                                    </userDefinedRuntimeAttribute>
-                                                </userDefinedRuntimeAttributes>
-                                            </textField>
+                                                <constraints>
+                                                    <constraint firstItem="27e-A3-H0b" firstAttribute="top" secondItem="UXN-He-mZR" secondAttribute="bottom" constant="64" id="0WR-Df-G36"/>
+                                                    <constraint firstItem="agt-kG-W2j" firstAttribute="trailing" secondItem="27e-A3-H0b" secondAttribute="trailing" id="0nj-Gx-vtd"/>
+                                                    <constraint firstItem="UXN-He-mZR" firstAttribute="centerX" secondItem="H6K-Sj-PlH" secondAttribute="centerX" id="3IX-cM-DBL"/>
+                                                    <constraint firstItem="agt-kG-W2j" firstAttribute="height" secondItem="27e-A3-H0b" secondAttribute="height" id="Otz-hn-f5P"/>
+                                                    <constraint firstItem="t0p-u6-TwM" firstAttribute="leading" secondItem="27e-A3-H0b" secondAttribute="leading" id="Rem-A4-La2"/>
+                                                    <constraint firstAttribute="trailing" secondItem="27e-A3-H0b" secondAttribute="trailing" constant="30" id="UXG-Kx-pYM"/>
+                                                    <constraint firstItem="agt-kG-W2j" firstAttribute="top" secondItem="27e-A3-H0b" secondAttribute="bottom" constant="22" id="Ygy-Si-EhL"/>
+                                                    <constraint firstItem="27e-A3-H0b" firstAttribute="height" secondItem="t0p-u6-TwM" secondAttribute="height" id="gbj-Xl-i71"/>
+                                                    <constraint firstItem="t0p-u6-TwM" firstAttribute="trailing" secondItem="27e-A3-H0b" secondAttribute="trailing" id="mdD-jv-agJ"/>
+                                                    <constraint firstAttribute="bottom" secondItem="t0p-u6-TwM" secondAttribute="bottom" constant="64" id="mkR-EM-DJt"/>
+                                                    <constraint firstItem="27e-A3-H0b" firstAttribute="leading" secondItem="H6K-Sj-PlH" secondAttribute="leading" constant="30" id="qmd-Wz-rRQ"/>
+                                                    <constraint firstItem="t0p-u6-TwM" firstAttribute="height" secondItem="H6K-Sj-PlH" secondAttribute="height" multiplier="1:18" constant="25.333333333333325" id="rxg-Vz-hsq"/>
+                                                    <constraint firstItem="UXN-He-mZR" firstAttribute="top" secondItem="H6K-Sj-PlH" secondAttribute="top" constant="44" id="tK6-Mh-WZd"/>
+                                                    <constraint firstItem="t0p-u6-TwM" firstAttribute="top" secondItem="agt-kG-W2j" secondAttribute="bottom" constant="64" id="yDa-bE-tMU"/>
+                                                    <constraint firstItem="agt-kG-W2j" firstAttribute="leading" secondItem="27e-A3-H0b" secondAttribute="leading" id="yf1-Yn-Qav"/>
+                                                </constraints>
+                                            </view>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         <constraints>
-                                            <constraint firstItem="agt-kG-W2j" firstAttribute="top" secondItem="27e-A3-H0b" secondAttribute="bottom" constant="22" id="1zp-mT-aok"/>
-                                            <constraint firstItem="agt-kG-W2j" firstAttribute="leading" secondItem="27e-A3-H0b" secondAttribute="leading" id="BR8-k1-suD"/>
-                                            <constraint firstItem="t0p-u6-TwM" firstAttribute="top" secondItem="agt-kG-W2j" secondAttribute="bottom" constant="64" id="BjX-fu-cxw"/>
-                                            <constraint firstItem="agt-kG-W2j" firstAttribute="trailing" secondItem="27e-A3-H0b" secondAttribute="trailing" id="CBc-Gf-v07"/>
-                                            <constraint firstItem="27e-A3-H0b" firstAttribute="top" secondItem="66r-gL-yvX" secondAttribute="top" constant="64" id="Ejh-5B-I4k"/>
-                                            <constraint firstItem="agt-kG-W2j" firstAttribute="height" secondItem="27e-A3-H0b" secondAttribute="height" id="PYs-GS-H0s"/>
-                                            <constraint firstItem="t0p-u6-TwM" firstAttribute="height" secondItem="66r-gL-yvX" secondAttribute="height" multiplier="1:18" constant="1.5600000000000001" id="TAb-HD-Uio"/>
-                                            <constraint firstItem="27e-A3-H0b" firstAttribute="height" secondItem="t0p-u6-TwM" secondAttribute="height" id="Uub-tL-HuS"/>
-                                            <constraint firstAttribute="trailing" secondItem="t0p-u6-TwM" secondAttribute="trailing" constant="44" id="a7u-1c-SXP"/>
-                                            <constraint firstItem="t0p-u6-TwM" firstAttribute="leading" secondItem="66r-gL-yvX" secondAttribute="leading" constant="44" id="paJ-pE-NCW"/>
+                                            <constraint firstItem="H6K-Sj-PlH" firstAttribute="leading" secondItem="66r-gL-yvX" secondAttribute="leading" id="ToB-PQ-9cc"/>
+                                            <constraint firstItem="H6K-Sj-PlH" firstAttribute="centerX" secondItem="66r-gL-yvX" secondAttribute="centerX" id="XN5-HQ-53V"/>
+                                            <constraint firstAttribute="trailing" secondItem="H6K-Sj-PlH" secondAttribute="trailing" id="fiD-WT-ijP"/>
+                                            <constraint firstItem="H6K-Sj-PlH" firstAttribute="centerY" secondItem="66r-gL-yvX" secondAttribute="centerY" id="nxD-WQ-ZYE"/>
                                         </constraints>
                                     </view>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstItem="27e-A3-H0b" firstAttribute="top" secondItem="E60-yv-IGh" secondAttribute="top" constant="64" id="A6P-jl-zZ8"/>
-                                    <constraint firstItem="27e-A3-H0b" firstAttribute="leading" secondItem="E60-yv-IGh" secondAttribute="leading" constant="44" id="EQz-1N-B7F"/>
-                                    <constraint firstAttribute="trailing" secondItem="27e-A3-H0b" secondAttribute="trailing" constant="44" id="FrX-7j-7Vb"/>
+                                    <constraint firstItem="66r-gL-yvX" firstAttribute="width" secondItem="E60-yv-IGh" secondAttribute="width" id="K0W-2t-6qT"/>
                                     <constraint firstAttribute="bottom" secondItem="66r-gL-yvX" secondAttribute="bottom" id="OmZ-eV-2BQ"/>
                                     <constraint firstItem="66r-gL-yvX" firstAttribute="leading" secondItem="E60-yv-IGh" secondAttribute="leading" id="PfQ-Va-cEU"/>
+                                    <constraint firstItem="66r-gL-yvX" firstAttribute="height" secondItem="E60-yv-IGh" secondAttribute="height" id="VpV-qv-yhf"/>
                                     <constraint firstItem="66r-gL-yvX" firstAttribute="top" secondItem="E60-yv-IGh" secondAttribute="top" id="ggf-fl-DvC"/>
-                                    <constraint firstItem="66r-gL-yvX" firstAttribute="centerY" secondItem="E60-yv-IGh" secondAttribute="centerY" id="s9d-ht-k8g"/>
                                     <constraint firstAttribute="trailing" secondItem="66r-gL-yvX" secondAttribute="trailing" id="yoR-hK-tVw"/>
                                     <constraint firstItem="66r-gL-yvX" firstAttribute="centerX" secondItem="E60-yv-IGh" secondAttribute="centerX" id="zgB-iE-HzO"/>
                                 </constraints>
                                 <viewLayoutGuide key="contentLayoutGuide" id="Syq-5z-dwi"/>
                                 <viewLayoutGuide key="frameLayoutGuide" id="NFI-TZ-puk"/>
+                                <connections>
+                                    <outlet property="delegate" destination="DMj-Ql-aDD" id="vUD-fW-feg"/>
+                                </connections>
                             </scrollView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="C6J-68-L35"/>
@@ -238,6 +262,7 @@
                     </view>
                     <connections>
                         <outlet property="emailTextField" destination="27e-A3-H0b" id="sbF-9N-CG0"/>
+                        <outlet property="keyboardScrollView" destination="E60-yv-IGh" id="i6w-Mx-uFc"/>
                         <outlet property="passwordTextField" destination="agt-kG-W2j" id="URc-t0-8kv"/>
                     </connections>
                 </viewController>
