@@ -154,9 +154,8 @@
                                             </button>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Email Address" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="27e-A3-H0b" customClass="HLCustomTextField" customModule="HelloLogin" customModuleProvider="target">
                                                 <rect key="frame" x="44" y="64" width="287" height="43.666666666666657"/>
-                                                <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                 <color key="tintColor" systemColor="systemYellowColor"/>
-                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" name="AppleSDGothicNeo-Medium" family="Apple SD Gothic Neo" pointSize="16"/>
                                                 <textInputTraits key="textInputTraits"/>
                                                 <userDefinedRuntimeAttributes>
@@ -165,9 +164,6 @@
                                                     </userDefinedRuntimeAttribute>
                                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
                                                         <real key="value" value="3"/>
-                                                    </userDefinedRuntimeAttribute>
-                                                    <userDefinedRuntimeAttribute type="color" keyPath="placeHolderColor">
-                                                        <color key="value" systemColor="systemGray3Color"/>
                                                     </userDefinedRuntimeAttribute>
                                                     <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
                                                         <real key="value" value="0.5"/>
@@ -179,15 +175,11 @@
                                             </textField>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="agt-kG-W2j" customClass="HLCustomTextField" customModule="HelloLogin" customModuleProvider="target">
                                                 <rect key="frame" x="44" y="129.66666666666666" width="287" height="43.666666666666657"/>
-                                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                 <color key="tintColor" systemColor="systemYellowColor"/>
-                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" name="AppleSDGothicNeo-Medium" family="Apple SD Gothic Neo" pointSize="16"/>
                                                 <textInputTraits key="textInputTraits"/>
                                                 <userDefinedRuntimeAttributes>
-                                                    <userDefinedRuntimeAttribute type="color" keyPath="placeHolderColor">
-                                                        <color key="value" systemColor="systemGray3Color"/>
-                                                    </userDefinedRuntimeAttribute>
                                                     <userDefinedRuntimeAttribute type="number" keyPath="leftPadding">
                                                         <real key="value" value="14"/>
                                                     </userDefinedRuntimeAttribute>
@@ -203,7 +195,7 @@
                                                 </userDefinedRuntimeAttributes>
                                             </textField>
                                         </subviews>
-                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         <constraints>
                                             <constraint firstItem="agt-kG-W2j" firstAttribute="top" secondItem="27e-A3-H0b" secondAttribute="bottom" constant="22" id="1zp-mT-aok"/>
                                             <constraint firstItem="agt-kG-W2j" firstAttribute="leading" secondItem="27e-A3-H0b" secondAttribute="leading" id="BR8-k1-suD"/>
@@ -253,19 +245,19 @@
     </scenes>
     <designables>
         <designable name="27e-A3-H0b">
-            <size key="intrinsicContentSize" width="93.666666666666671" height="21"/>
+            <size key="intrinsicContentSize" width="107.66666666666667" height="21"/>
         </designable>
         <designable name="Whf-54-YsR">
-            <size key="intrinsicContentSize" width="52" height="39"/>
+            <size key="intrinsicContentSize" width="52" height="27"/>
         </designable>
         <designable name="agt-kG-W2j">
-            <size key="intrinsicContentSize" width="63.333333333333336" height="21"/>
+            <size key="intrinsicContentSize" width="77.666666666666671" height="21"/>
         </designable>
         <designable name="oK9-jx-4Vm">
-            <size key="intrinsicContentSize" width="64" height="39"/>
+            <size key="intrinsicContentSize" width="64" height="27"/>
         </designable>
         <designable name="t0p-u6-TwM">
-            <size key="intrinsicContentSize" width="52" height="39"/>
+            <size key="intrinsicContentSize" width="52" height="27"/>
         </designable>
     </designables>
     <resources>
