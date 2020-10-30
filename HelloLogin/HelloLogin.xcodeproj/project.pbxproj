@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		492FFBB22547006300A10904 /* HLCustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492FFBB12547006300A10904 /* HLCustomTextField.swift */; };
+		49C9E17D254BC1D4007D3553 /* HLSignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C9E17C254BC1D4007D3553 /* HLSignUpVC.swift */; };
 		49DE4B562544771A00038260 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DE4B552544771A00038260 /* AppDelegate.swift */; };
 		49DE4B582544771A00038260 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DE4B572544771A00038260 /* SceneDelegate.swift */; };
 		49DE4B5A2544771A00038260 /* HLHomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DE4B592544771A00038260 /* HLHomeVC.swift */; };
@@ -45,6 +46,7 @@
 		39466501F592A8A53CADF9C1 /* Pods_HelloLogin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HelloLogin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FD3999522E748971FFC318C /* Pods-HelloLogin-HelloLoginUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloLogin-HelloLoginUITests.debug.xcconfig"; path = "Target Support Files/Pods-HelloLogin-HelloLoginUITests/Pods-HelloLogin-HelloLoginUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		492FFBB12547006300A10904 /* HLCustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HLCustomTextField.swift; sourceTree = "<group>"; };
+		49C9E17C254BC1D4007D3553 /* HLSignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HLSignUpVC.swift; sourceTree = "<group>"; };
 		49DE4B522544771A00038260 /* HelloLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		49DE4B552544771A00038260 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		49DE4B572544771A00038260 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -179,6 +181,7 @@
 			children = (
 				49DE4B592544771A00038260 /* HLHomeVC.swift */,
 				49EF204025471F6A00B7EC4B /* HLLoginVC.swift */,
+				49C9E17C254BC1D4007D3553 /* HLSignUpVC.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -431,6 +434,7 @@
 				49DE4B5A2544771A00038260 /* HLHomeVC.swift in Sources */,
 				49DE4B562544771A00038260 /* AppDelegate.swift in Sources */,
 				492FFBB22547006300A10904 /* HLCustomTextField.swift in Sources */,
+				49C9E17D254BC1D4007D3553 /* HLSignUpVC.swift in Sources */,
 				49DE4B582544771A00038260 /* SceneDelegate.swift in Sources */,
 				49EF204125471F6A00B7EC4B /* HLLoginVC.swift in Sources */,
 				49DE4BB32544912700038260 /* HLCustomButton.swift in Sources */,
