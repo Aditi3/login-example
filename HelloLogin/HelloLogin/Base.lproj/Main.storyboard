@@ -285,7 +285,7 @@
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="758"/>
                                         <subviews>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="E7s-Q0-suK" customClass="HLCustomTextField" customModule="HelloLogin" customModuleProvider="target">
-                                                <rect key="frame" x="44" y="64" width="287" height="43.666666666666657"/>
+                                                <rect key="frame" x="30" y="137.33333333333334" width="315" height="43.666666666666657"/>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                 <color key="tintColor" systemColor="systemYellowColor"/>
                                                 <fontDescription key="fontDescription" name="AppleSDGothicNeo-Medium" family="Apple SD Gothic Neo" pointSize="16"/>
@@ -306,7 +306,7 @@
                                                 </userDefinedRuntimeAttributes>
                                             </textField>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Email Address" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8nD-mP-tB2" customClass="HLCustomTextField" customModule="HelloLogin" customModuleProvider="target">
-                                                <rect key="frame" x="44" y="129.66666666666666" width="287" height="43.666666666666657"/>
+                                                <rect key="frame" x="30" y="203" width="315" height="43.666666666666657"/>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                 <color key="tintColor" systemColor="systemYellowColor"/>
                                                 <fontDescription key="fontDescription" name="AppleSDGothicNeo-Medium" family="Apple SD Gothic Neo" pointSize="16"/>
@@ -327,7 +327,7 @@
                                                 </userDefinedRuntimeAttributes>
                                             </textField>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="jOP-Rk-6G2" customClass="HLCustomTextField" customModule="HelloLogin" customModuleProvider="target">
-                                                <rect key="frame" x="44" y="195.33333333333334" width="287" height="43.666666666666657"/>
+                                                <rect key="frame" x="30" y="268.66666666666669" width="315" height="43.666666666666686"/>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                 <color key="tintColor" systemColor="systemYellowColor"/>
                                                 <fontDescription key="fontDescription" name="AppleSDGothicNeo-Medium" family="Apple SD Gothic Neo" pointSize="16"/>
@@ -348,7 +348,7 @@
                                                 </userDefinedRuntimeAttributes>
                                             </textField>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Confirm Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="pwW-8z-BSh" customClass="HLCustomTextField" customModule="HelloLogin" customModuleProvider="target">
-                                                <rect key="frame" x="44" y="261" width="287" height="43.666666666666686"/>
+                                                <rect key="frame" x="30" y="334.33333333333331" width="315" height="43.666666666666686"/>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                 <color key="tintColor" systemColor="systemYellowColor"/>
                                                 <fontDescription key="fontDescription" name="AppleSDGothicNeo-Medium" family="Apple SD Gothic Neo" pointSize="16"/>
@@ -368,8 +368,14 @@
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
                                             </textField>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HEADLINE" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o89-D2-mHe">
+                                                <rect key="frame" x="103" y="30.000000000000004" width="169" height="43.333333333333343"/>
+                                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Bold" family="Apple SD Gothic Neo" pointSize="36"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c1t-gx-Zas" customClass="HLCustomButton" customModule="HelloLogin" customModuleProvider="target">
-                                                <rect key="frame" x="44" y="368.66666666666669" width="287" height="43.666666666666686"/>
+                                                <rect key="frame" x="30" y="442" width="315" height="43.666666666666686"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" name="AppleSDGothicNeo-SemiBold" family="Apple SD Gothic Neo" pointSize="22"/>
                                                 <state key="normal" title="Sign Up">
@@ -394,44 +400,50 @@
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         <constraints>
                                             <constraint firstItem="pwW-8z-BSh" firstAttribute="height" secondItem="E7s-Q0-suK" secondAttribute="height" id="0fc-qH-vwk"/>
-                                            <constraint firstItem="E7s-Q0-suK" firstAttribute="top" secondItem="lf0-op-WxJ" secondAttribute="top" constant="64" id="1C3-bh-IYJ"/>
                                             <constraint firstItem="jOP-Rk-6G2" firstAttribute="height" secondItem="E7s-Q0-suK" secondAttribute="height" id="1vD-kf-S9I"/>
                                             <constraint firstItem="c1t-gx-Zas" firstAttribute="height" secondItem="lf0-op-WxJ" secondAttribute="height" multiplier="1:18" constant="1.5600000000000001" id="3lF-tT-S2i"/>
                                             <constraint firstItem="c1t-gx-Zas" firstAttribute="top" secondItem="pwW-8z-BSh" secondAttribute="bottom" constant="64" id="72D-DR-uOM"/>
                                             <constraint firstItem="pwW-8z-BSh" firstAttribute="trailing" secondItem="jOP-Rk-6G2" secondAttribute="trailing" id="B2Q-uu-zcT"/>
+                                            <constraint firstAttribute="trailing" secondItem="E7s-Q0-suK" secondAttribute="trailing" constant="30" id="BD2-Dg-9SC"/>
                                             <constraint firstItem="pwW-8z-BSh" firstAttribute="top" secondItem="jOP-Rk-6G2" secondAttribute="bottom" constant="22" id="ENT-5s-D6j"/>
                                             <constraint firstItem="8nD-mP-tB2" firstAttribute="leading" secondItem="E7s-Q0-suK" secondAttribute="leading" id="I9S-wh-7SY"/>
                                             <constraint firstItem="jOP-Rk-6G2" firstAttribute="leading" secondItem="E7s-Q0-suK" secondAttribute="leading" id="Ig0-5t-qnp"/>
                                             <constraint firstItem="jOP-Rk-6G2" firstAttribute="top" secondItem="8nD-mP-tB2" secondAttribute="bottom" constant="22" id="Ki2-ft-Pjn"/>
-                                            <constraint firstItem="c1t-gx-Zas" firstAttribute="leading" secondItem="lf0-op-WxJ" secondAttribute="leading" constant="44" id="Kz0-mQ-89A"/>
                                             <constraint firstItem="8nD-mP-tB2" firstAttribute="height" secondItem="E7s-Q0-suK" secondAttribute="height" id="Ndy-ry-M9h"/>
+                                            <constraint firstItem="o89-D2-mHe" firstAttribute="centerX" secondItem="lf0-op-WxJ" secondAttribute="centerX" id="OrB-pv-WXM"/>
+                                            <constraint firstItem="o89-D2-mHe" firstAttribute="top" secondItem="lf0-op-WxJ" secondAttribute="top" constant="30" id="Pee-I9-ds3"/>
                                             <constraint firstItem="jOP-Rk-6G2" firstAttribute="trailing" secondItem="E7s-Q0-suK" secondAttribute="trailing" id="Q4n-be-NO2"/>
+                                            <constraint firstItem="E7s-Q0-suK" firstAttribute="top" secondItem="o89-D2-mHe" secondAttribute="bottom" constant="64" id="UgV-kc-1ee"/>
                                             <constraint firstItem="8nD-mP-tB2" firstAttribute="top" secondItem="E7s-Q0-suK" secondAttribute="bottom" constant="22" id="WYZ-TZ-Goo"/>
                                             <constraint firstItem="E7s-Q0-suK" firstAttribute="height" secondItem="c1t-gx-Zas" secondAttribute="height" id="WxS-Wg-UqA"/>
-                                            <constraint firstAttribute="trailing" secondItem="c1t-gx-Zas" secondAttribute="trailing" constant="44" id="fDH-XV-Z5R"/>
+                                            <constraint firstItem="c1t-gx-Zas" firstAttribute="trailing" secondItem="E7s-Q0-suK" secondAttribute="trailing" id="fz6-Ku-E0r"/>
                                             <constraint firstItem="8nD-mP-tB2" firstAttribute="trailing" secondItem="E7s-Q0-suK" secondAttribute="trailing" id="lQi-KX-ZR3"/>
+                                            <constraint firstItem="c1t-gx-Zas" firstAttribute="leading" secondItem="E7s-Q0-suK" secondAttribute="leading" id="rkn-Oo-9oA"/>
                                             <constraint firstItem="pwW-8z-BSh" firstAttribute="leading" secondItem="jOP-Rk-6G2" secondAttribute="leading" id="sdJ-1e-5XM"/>
                                         </constraints>
                                     </view>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstAttribute="bottom" secondItem="lf0-op-WxJ" secondAttribute="bottom" id="1HN-EE-vRm"/>
-                                    <constraint firstItem="E7s-Q0-suK" firstAttribute="top" secondItem="g0T-Wa-R37" secondAttribute="top" constant="64" id="647-72-IKm"/>
-                                    <constraint firstAttribute="trailing" secondItem="E7s-Q0-suK" secondAttribute="trailing" constant="44" id="Soa-0C-oPi"/>
-                                    <constraint firstAttribute="trailing" secondItem="lf0-op-WxJ" secondAttribute="trailing" id="VpR-Oy-GTc"/>
+                                    <constraint firstItem="lf0-op-WxJ" firstAttribute="width" secondItem="g0T-Wa-R37" secondAttribute="width" id="0AO-8z-Z7c"/>
+                                    <constraint firstAttribute="bottom" secondItem="lf0-op-WxJ" secondAttribute="bottom" id="ORU-d0-Zuv"/>
+                                    <constraint firstItem="lf0-op-WxJ" firstAttribute="height" secondItem="g0T-Wa-R37" secondAttribute="height" id="RN0-Kq-pbU"/>
+                                    <constraint firstAttribute="trailing" secondItem="E7s-Q0-suK" secondAttribute="trailing" constant="30" id="Soa-0C-oPi"/>
                                     <constraint firstItem="lf0-op-WxJ" firstAttribute="leading" secondItem="g0T-Wa-R37" secondAttribute="leading" id="Wio-KB-cF8"/>
-                                    <constraint firstItem="lf0-op-WxJ" firstAttribute="centerY" secondItem="g0T-Wa-R37" secondAttribute="centerY" id="ZNt-tt-woL"/>
                                     <constraint firstItem="lf0-op-WxJ" firstAttribute="top" secondItem="g0T-Wa-R37" secondAttribute="top" id="lNf-W2-dg8"/>
-                                    <constraint firstItem="E7s-Q0-suK" firstAttribute="leading" secondItem="g0T-Wa-R37" secondAttribute="leading" constant="44" id="r8G-gS-Ozz"/>
-                                    <constraint firstItem="lf0-op-WxJ" firstAttribute="centerX" secondItem="g0T-Wa-R37" secondAttribute="centerX" id="y2d-1O-M7U"/>
+                                    <constraint firstItem="u0v-Jq-dUL" firstAttribute="trailing" secondItem="lf0-op-WxJ" secondAttribute="trailing" id="ne3-1x-nhA"/>
+                                    <constraint firstItem="E7s-Q0-suK" firstAttribute="leading" secondItem="g0T-Wa-R37" secondAttribute="leading" constant="30" id="r8G-gS-Ozz"/>
                                 </constraints>
                                 <viewLayoutGuide key="contentLayoutGuide" id="zoq-Lb-vLa"/>
                                 <viewLayoutGuide key="frameLayoutGuide" id="u0v-Jq-dUL"/>
+                                <connections>
+                                    <outlet property="delegate" destination="rUt-hk-cff" id="8RC-hh-k8L"/>
+                                </connections>
                             </scrollView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Mzj-gj-hRo"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="g0T-Wa-R37" firstAttribute="trailing" secondItem="Mzj-gj-hRo" secondAttribute="trailing" id="PwU-92-WVY"/>
+                            <constraint firstItem="g0T-Wa-R37" firstAttribute="trailing" secondItem="mss-eZ-pag" secondAttribute="trailing" id="PwU-92-WVY"/>
                             <constraint firstItem="g0T-Wa-R37" firstAttribute="top" secondItem="mss-eZ-pag" secondAttribute="top" id="Ylf-zv-Bnr"/>
                             <constraint firstItem="g0T-Wa-R37" firstAttribute="leading" secondItem="Mzj-gj-hRo" secondAttribute="leading" id="dsj-Xt-Npn"/>
                             <constraint firstAttribute="bottom" secondItem="g0T-Wa-R37" secondAttribute="bottom" id="v9l-ne-B2o"/>
@@ -440,13 +452,15 @@
                     <connections>
                         <outlet property="confirmPasswordTextField" destination="pwW-8z-BSh" id="RaJ-38-FWR"/>
                         <outlet property="emailTextField" destination="8nD-mP-tB2" id="z7i-TG-yMe"/>
+                        <outlet property="keyboardScrollView" destination="g0T-Wa-R37" id="p49-4H-65V"/>
                         <outlet property="nameTextField" destination="E7s-Q0-suK" id="Lc8-a0-SfG"/>
                         <outlet property="passwordTextField" destination="jOP-Rk-6G2" id="r2F-7x-leR"/>
+                        <outlet property="signUpHeadlineLabel" destination="o89-D2-mHe" id="lKD-Ds-qTa"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Usx-1e-9Cp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="942" y="662"/>
+            <point key="canvasLocation" x="941.60000000000002" y="661.33004926108379"/>
         </scene>
     </scenes>
     <designables>
