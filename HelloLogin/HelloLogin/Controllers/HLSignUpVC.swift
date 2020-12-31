@@ -54,6 +54,14 @@ class HLSignUpVC: UIViewController {
         
         keyboardScrollView.contentInset = UIEdgeInsets.zero
     }
+    
+    @IBAction func signUpButtonTapped(_ sender: UIButton) {
+        
+        let alert = UIAlertController(title: "SignUp", message: "Sign Up button tapped, validation and functionality will be shipped in the next release", preferredStyle: .alert)
+        alert.addAction(UIAlertAction(title: "Dismiss", style: .default, handler: nil))
+
+        self.present(alert, animated: true)
+    }
 }
 
 
