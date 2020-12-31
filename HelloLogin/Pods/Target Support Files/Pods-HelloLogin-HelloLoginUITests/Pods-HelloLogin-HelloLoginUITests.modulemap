@@ -1,0 +1,6 @@
+framework module Pods_HelloLogin_HelloLoginUITests {
+  umbrella header "Pods-HelloLogin-HelloLoginUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
