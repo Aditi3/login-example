@@ -205,6 +205,9 @@
                                                                 <color key="value" red="0.97647058819999999" green="0.80000000000000004" blue="0.27450980390000002" alpha="0.5" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                                             </userDefinedRuntimeAttribute>
                                                         </userDefinedRuntimeAttributes>
+                                                        <connections>
+                                                            <action selector="signInButtonTapped:" destination="DMj-Ql-aDD" eventType="touchUpInside" id="gBu-Xn-Hhw"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>

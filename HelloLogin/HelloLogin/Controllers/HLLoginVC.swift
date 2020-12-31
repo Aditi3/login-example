@@ -20,6 +20,14 @@ class HLLoginVC: UIViewController {
         emailTextField.delegate = self
         passwordTextField.delegate = self
     }
+    
+    @IBAction func signInButtonTapped(_ sender: UIButton) {
+        
+        let alert = UIAlertController(title: "Sign In", message: "Sign In button tapped, validation and functionality will be shipped in the next release", preferredStyle: .alert)
+        alert.addAction(UIAlertAction(title: "Dismiss", style: .default, handler: nil))
+
+        self.present(alert, animated: true)
+    }
 }
 
 
