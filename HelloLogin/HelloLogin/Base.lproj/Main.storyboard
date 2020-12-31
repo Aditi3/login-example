@@ -119,10 +119,10 @@
             </objects>
             <point key="canvasLocation" x="-177" y="52"/>
         </scene>
-        <!--LoginVC-->
+        <!--Sign InVC-->
         <scene sceneID="vax-3z-gzN">
             <objects>
-                <viewController id="DMj-Ql-aDD" customClass="HLLoginVC" customModule="HelloLogin" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="DMj-Ql-aDD" customClass="HLSignInVC" customModule="HelloLogin" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="KhT-yQ-YxF">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="758"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -188,7 +188,7 @@
                                                         <rect key="frame" x="30" y="340.66666666666663" width="315" height="50.666666666666686"/>
                                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <fontDescription key="fontDescription" name="AppleSDGothicNeo-SemiBold" family="Apple SD Gothic Neo" pointSize="22"/>
-                                                        <state key="normal" title="Login">
+                                                        <state key="normal" title="Sign In">
                                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         </state>
                                                         <userDefinedRuntimeAttributes>
@@ -498,7 +498,7 @@
             <size key="intrinsicContentSize" width="134.33333333333334" height="21"/>
         </designable>
         <designable name="t0p-u6-TwM">
-            <size key="intrinsicContentSize" width="52" height="27"/>
+            <size key="intrinsicContentSize" width="64" height="27"/>
         </designable>
     </designables>
     <resources>

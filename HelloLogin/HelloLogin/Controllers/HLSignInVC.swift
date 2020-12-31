@@ -8,7 +8,7 @@
 
 import UIKit
 
-class HLLoginVC: UIViewController {
+class HLSignInVC: UIViewController {
     
     @IBOutlet weak var emailTextField: UITextField!
     @IBOutlet weak var passwordTextField: UITextField!
@@ -33,7 +33,7 @@ class HLLoginVC: UIViewController {
 
 //MARK:- UITextFieldDelegate
 
-extension HLLoginVC: UITextFieldDelegate {
+extension HLSignInVC: UITextFieldDelegate {
     
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         // Hide the keyboard.
