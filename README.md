@@ -14,3 +14,13 @@ An example showcasing implementation of MVC architectural pattern and simple UI/
 <img src="/images/image-4.png" width="140">
 </p>
 
+<br>
+
+<p float="left"> 
+<img src="/images/image-5.png" width="140">
+<img src="/images/image-6.png" width="140">
+<img src="/images/image-7.png" width="140">
+<img src="/images/image-8.png" width="140">
+</p>
+
+
