@@ -41,7 +41,7 @@
                                 <color key="backgroundColor" red="0.97647058823529409" green="0.80000000000000004" blue="0.27450980392156865" alpha="0.5" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="AppleSDGothicNeo-SemiBold" family="Apple SD Gothic Neo" pointSize="22"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <state key="normal" title="Login">
+                                <state key="normal" title="Sign In">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
@@ -66,7 +66,7 @@
                                 <rect key="frame" x="219.66666666666666" y="651.66666666666663" width="91.333333333333343" height="62.333333333333371"/>
                                 <color key="backgroundColor" red="0.97647058823529409" green="0.80000000000000004" blue="0.27450980392156865" alpha="0.5" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="AppleSDGothicNeo-SemiBold" family="Apple SD Gothic Neo" pointSize="22"/>
-                                <state key="normal" title="Signup">
+                                <state key="normal" title="Sign Up">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
@@ -480,7 +480,7 @@
             <size key="intrinsicContentSize" width="52.666666666666664" height="21"/>
         </designable>
         <designable name="Whf-54-YsR">
-            <size key="intrinsicContentSize" width="52" height="27"/>
+            <size key="intrinsicContentSize" width="64" height="27"/>
         </designable>
         <designable name="agt-kG-W2j">
             <size key="intrinsicContentSize" width="77.666666666666671" height="21"/>
@@ -492,7 +492,7 @@
             <size key="intrinsicContentSize" width="77.666666666666671" height="21"/>
         </designable>
         <designable name="oK9-jx-4Vm">
-            <size key="intrinsicContentSize" width="64" height="27"/>
+            <size key="intrinsicContentSize" width="73" height="27"/>
         </designable>
         <designable name="pwW-8z-BSh">
             <size key="intrinsicContentSize" width="134.33333333333334" height="21"/>
